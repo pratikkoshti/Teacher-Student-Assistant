@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Attendance_List"
+    android:background="#002147">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/relativemain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/column1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <CheckBox
+                        android:id="@+id/r1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r1"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r2"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r3"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r4"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r5"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r6"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r7"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r8"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r9"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/column2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <CheckBox
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r11"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r12"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r13"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r14"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r15"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r16"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r17"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r18"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r19"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/column3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <CheckBox
+                        android:id="@+id/r21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r21"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r22"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r23"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r24"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="26"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r25"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="27"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r26"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="28"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r27"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="29"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r28"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                    <CheckBox
+                        android:id="@+id/r30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30"
+                        android:textColor="@color/white"
+                        android:fontFamily="monospace"
+                        android:textSize="20sp"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_below="@id/r29"
+                        android:layout_marginTop="40dp">
+                    </CheckBox>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_style"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Submit"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/relativemain"/>
+        </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>

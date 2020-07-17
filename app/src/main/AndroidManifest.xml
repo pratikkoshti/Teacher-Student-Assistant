@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.teacherstudentapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".See_Attendance"></activity>
+        <activity android:name=".Attendance_Scheme" />
+        <activity android:name=".Attendance_Table" />
+        <activity android:name=".Attendance_List" />
+        <activity android:name=".Attendance_Subjects" />
+        <activity
+            android:name=".CPP_Quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".C_Quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jscoe_Site"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Moodle_Webview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SNotesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TNotesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SAssignmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TAssignmentActivity"
+            android:parentActivityName=".TeacherPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeacherPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

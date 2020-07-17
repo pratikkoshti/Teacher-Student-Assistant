@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SAssignmentActivity"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:background="#002147"
+    android:orientation="vertical">
+
+
+
+
+    <Button
+        android:id="@+id/download_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Download Sem 1 Syllabus"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/download_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Download Sem 2 Syllabus"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/download_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Download Sem 3 Syllabus"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/download_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Download Sem 4 Syllabus"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/download_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Download Sem 5 Syllabus"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/download_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Download Sem 6 Syllabus"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>

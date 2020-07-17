@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315504206868",
+    "firebase_url": "https://teacher-student-app-92598.firebaseio.com",
+    "project_id": "teacher-student-app-92598",
+    "storage_bucket": "teacher-student-app-92598.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315504206868:android:afa6b5680bd1c097cc3301",
+        "android_client_info": {
+          "package_name": "com.example.teacherstudentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315504206868-l3uv97k7put9v5pl3ud42r9q35m12e5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teacherstudentapp",
+            "certificate_hash": "7a33f66f943a51a845d17dbd2bcccbc3f17067a9"
+          }
+        },
+        {
+          "client_id": "315504206868-1a7f91tchicadd5eddfpgki22p19tvov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOmgtLQ60ut_7gwsHhX6vLIE3sxuRK_qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315504206868-1a7f91tchicadd5eddfpgki22p19tvov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
